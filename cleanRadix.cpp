@@ -26,10 +26,6 @@ void count_sort(u_int arr[],const u_int& cap, const u_int& d){
 	for(u_int i = 0; i < cap; ++i){
 		arr[i] = result[i];
 	}
-
-	//for(u_int i = 0; i < cap; ++i){
-	//	std::cout << result[i] << std::endl;
-	//}
 }
 
 void radix(u_int arr[],const u_int& cap){
@@ -38,7 +34,6 @@ void radix(u_int arr[],const u_int& cap){
 		std::cout << "  d : " << d ; 
 		count_sort(arr, cap, d);
 	}
-std::cout <<" dddddd " << max << " max was  " ;
 }
 
 int main(){
